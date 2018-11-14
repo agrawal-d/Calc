@@ -30,29 +30,7 @@ public class MainActivity extends AppCompatActivity {
                 "Asshole detected."
         };
         int rnd = rand.nextInt(10);
-        if (rnd >= 0 &&rnd<1){
-            txt.setText(slang[0]);
-        }
-        if (rnd >= 1 &&rnd<2){
-            txt.setText(slang[2]);
-        }
-        if(rnd>=2&&rnd<3){
-            txt.setText(slang[3]);
-        }
-        if(rnd>=4&&rnd<5){
-            txt.setText(slang[5]);
-        }
-        if(rnd>=5&&rnd<6){
-            txt.setText(slang[6]);
-        }
-        if(rnd>=7&&rnd<8){
-            txt.setText(slang[7]);
-        }
-        if(rnd>=8&&rnd<9){
-            txt.setText(slang[8]);
-        }
-        if(rnd>=9&&rnd<10){
-            txt.setText(slang[9]);
+        if(rnd>=0) txt.setText(slang[rnd]);
         }
     }
 
